@@ -2,8 +2,8 @@
 
 Bienvenue dans ce cours intensif de Django ! Ce repository contient tous les matériaux nécessaires pour vous guider à travers un apprentissage complet de Django en 20 jours.
 
-## Structure du Cours 
-`STRUCTURE`
+## Structure du Cours [Consultez la page ici](STRUCTURE.md)
+
 Le cours est divisé en 3 semaines :
 
 1. Semaine 1 : Les bases
@@ -39,4 +39,4 @@ Les contributions sont les bienvenues ! Si vous trouvez des erreurs ou avez des 
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
