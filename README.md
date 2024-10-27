@@ -2,7 +2,7 @@
 
 Bienvenue dans ce cours intensif de Django ! Ce repository contient tous les matériaux nécessaires pour vous guider à travers un apprentissage complet de Django en 20 jours.
 
-## Structure du Cours [Consultez la page ici](STRUCTURE.md)
+## Structure du Cours [:eye:](STRUCTURE.md)
 
 Le cours est divisé en 3 semaines :
 
