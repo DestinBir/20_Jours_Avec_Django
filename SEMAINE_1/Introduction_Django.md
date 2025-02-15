@@ -22,13 +22,15 @@
     django-admin startproject blog .
     ```
 
-2. **Naviguer dans le répertoire du projet**:
-    - Déplacez-vous dans le répertoire du projet :
+2. **Démarrer le serveur de développement**:
+    - Exécutez la commande suivante pour créer les migrations :
     ```bash
-    cd blog
+    python manage.py makemigrations
     ```
-
-3. **Démarrer le serveur de développement**:
+    - Exécutez la commande suivante pour exécuter ces migrations :
+    ```bash
+    python manage.py runserver
+    ```
     - Exécutez la commande suivante pour démarrer le serveur de développement :
     ```bash
     python manage.py runserver
