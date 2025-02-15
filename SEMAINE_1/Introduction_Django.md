@@ -29,7 +29,7 @@
     ```
     - Exécutez la commande suivante pour exécuter ces migrations :
     ```bash
-    python manage.py runserver
+    python manage.py migrate
     ```
     - Exécutez la commande suivante pour démarrer le serveur de développement :
     ```bash
