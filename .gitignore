@@ -14,7 +14,7 @@ db.sqlite3
 media
 
 # Environnements virtuels
-venv/
+env/
 .env
 
 # IDEs
