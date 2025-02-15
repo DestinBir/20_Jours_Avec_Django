@@ -42,13 +42,12 @@
 Voici la structure de base d'un projet Django nommé `blog` :
 
 ```
+manage.py
 blog/
-    manage.py
-    blog/
-        __init__.py
-        settings.py
-        urls.py
-        wsgi.py
+    __init__.py
+    settings.py
+    urls.py
+    wsgi.py
 ```
 
 - `manage.py` : Un script qui vous permet d'interagir avec votre projet Django de différentes manières.
@@ -58,3 +57,10 @@ blog/
     - `urls.py` : Le fichier de définition des URL pour votre projet Django.
     - `wsgi.py` : Un fichier pour déployer votre projet sur un serveur web.
 
+## ⚠️ **A savoir** 
+
+- `makemigrations` : 
+    - `Rôle` : Cette commande génère des fichiers de migration qui décrivent les modifications apportées au modèle (comme l'ajout ou la suppression de champs dans une table, la modification de types de données, etc.).
+`Pourquoi c'est important` :
+Enregistrement des changements : Elle permet de capturer les modifications des modèles dans des fichiers de migration, qui sont ensuite utilisés pour synchroniser la base de données avec les nouveaux modèles.
+Suivi des modifications : Elle facilite le suivi des modifications de la base de données au fil du temps, en créant des versions de migrations à appliquer au fur et à mesure du développement.
