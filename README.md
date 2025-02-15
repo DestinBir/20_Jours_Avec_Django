@@ -1,6 +1,7 @@
 # Django - 20 jours pour bien débuter
 
 Bienvenue dans ce cours intensif de Django ! Ce repository contient tous les matériaux nécessaires pour vous guider à travers un apprentissage complet de Django en 20 jours.
+Pour ce cours on aura à faire un blog simple pour illustration.
 
 ## Structure du Cours [:eye:](STRUCTURE.md)
 
