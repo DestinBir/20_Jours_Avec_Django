@@ -19,7 +19,7 @@
     - Dans le terminal, naviguez vers le répertoire où vous souhaitez créer votre projet,
     - Exécutez la commande suivante pour créer un nouveau projet Django nommé `blog` :
     ```bash
-    django-admin startproject blog
+    django-admin startproject blog .
     ```
 
 2. **Naviguer dans le répertoire du projet**:
