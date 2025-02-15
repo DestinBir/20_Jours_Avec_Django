@@ -66,7 +66,7 @@ blog/
         - `Suivi des modifications` : Elle facilite le suivi des modifications de la base de données au fil du temps, en créant des versions de migrations à appliquer au fur et à mesure du développement.
 
 - `migrate`
-    - `Rôle` : Après avoir créé des fichiers de migration avec makemigrations, vous utilisez migrate pour appliquer ces migrations à la base de données réelle. Cela permet de mettre à jour la base de données en fonction des modifications effectuées sur les modèles.
+    - `Rôle` : Après avoir créé des fichiers de migration avec `makemigrations`, vous utilisez migrate pour appliquer ces migrations à la base de données réelle. Cela permet de mettre à jour la base de données en fonction des modifications effectuées sur les modèles.
     - `Pourquoi c'est important` :
         - `Synchronisation avec la base de données` : Elle met à jour la structure de la base de données en fonction des changements de vos modèles.
         - `Applications des migrations` : Cette commande permet d'appliquer toutes les migrations en attente et garantit que votre base de données est à jour par rapport aux modèles définis dans votre projet Django.
