@@ -61,6 +61,18 @@ blog/
 
 - `makemigrations` : 
     - `Rôle` : Cette commande génère des fichiers de migration qui décrivent les modifications apportées au modèle (comme l'ajout ou la suppression de champs dans une table, la modification de types de données, etc.).
-`Pourquoi c'est important` :
-Enregistrement des changements : Elle permet de capturer les modifications des modèles dans des fichiers de migration, qui sont ensuite utilisés pour synchroniser la base de données avec les nouveaux modèles.
-Suivi des modifications : Elle facilite le suivi des modifications de la base de données au fil du temps, en créant des versions de migrations à appliquer au fur et à mesure du développement.
+    - `Pourquoi c'est important` :
+        - `Enregistrement des changements` : Elle permet de capturer les modifications des modèles dans des fichiers de migration, qui sont ensuite utilisés pour synchroniser la base de données avec les nouveaux modèles.
+        - `Suivi des modifications` : Elle facilite le suivi des modifications de la base de données au fil du temps, en créant des versions de migrations à appliquer au fur et à mesure du développement.
+
+- `migrate`
+    - `Rôle` : Après avoir créé des fichiers de migration avec makemigrations, vous utilisez migrate pour appliquer ces migrations à la base de données réelle. Cela permet de mettre à jour la base de données en fonction des modifications effectuées sur les modèles.
+    - `Pourquoi c'est important` :
+        - `Synchronisation avec la base de données` : Elle met à jour la structure de la base de données en fonction des changements de vos modèles.
+        - `Applications des migrations` : Cette commande permet d'appliquer toutes les migrations en attente et garantit que votre base de données est à jour par rapport aux modèles définis dans votre projet Django.
+
+- `runserver`
+    - `Rôle` : Cette commande lance le serveur de développement intégré de Django, permettant de tester et d'interagir avec l'application en local via un navigateur web.
+    - `Pourquoi c'est important` :
+Test local : Elle permet de tester votre application dans un environnement local avant de la déployer en production.
+Développement continu : Elle redémarre automatiquement le serveur à chaque modification du code source, ce qui facilite un développement rapide et dynamique.
