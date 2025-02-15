@@ -74,5 +74,5 @@ blog/
 - `runserver`
     - `Rôle` : Cette commande lance le serveur de développement intégré de Django, permettant de tester et d'interagir avec l'application en local via un navigateur web.
     - `Pourquoi c'est important` :
-Test local : Elle permet de tester votre application dans un environnement local avant de la déployer en production.
-Développement continu : Elle redémarre automatiquement le serveur à chaque modification du code source, ce qui facilite un développement rapide et dynamique.
+        - `Test local` : Elle permet de tester votre application dans un environnement local avant de la déployer en production.
+        - `Développement continu` : Elle redémarre automatiquement le serveur à chaque modification du code source, ce qui facilite un développement rapide et dynamique.
